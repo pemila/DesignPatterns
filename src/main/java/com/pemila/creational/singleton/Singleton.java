@@ -1,7 +1,5 @@
 package com.pemila.creational.singleton;
 
-import lombok.Data;
-
 /**
  * 单例模式简易实现
  * @author： 月在未央
