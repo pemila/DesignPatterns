@@ -21,7 +21,6 @@
 	    |   |   |           |   |       |-- Color.java
 	    |   |   |           |   |       |-- Shape.java
 	    |   |   |           |   |-- builder 建造者模式
-	    |   |   |           |   |   |-- a
 	    |   |   |           |   |   |-- Builder.java
 	    |   |   |           |   |   |-- ClientDemo.java
 	    |   |   |           |   |   |-- Computer.java
