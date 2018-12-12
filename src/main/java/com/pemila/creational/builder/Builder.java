@@ -6,10 +6,10 @@ package com.pemila.creational.builder;
  * @Description：
  */
 public interface Builder {
-    public void buildHost();
-    public void buildScreen();
-    public void buildKeyboard();
-    public void buildMouse();
+    void buildHost();
+    void buildScreen();
+    void buildKeyboard();
+    void buildMouse();
 
-    public Computer assembleComputer();
+    Computer assembleComputer();
 }
