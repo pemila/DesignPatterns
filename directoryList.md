@@ -50,6 +50,16 @@
                 |           |-- LazyThreadSingleton.java
                 |           |-- RegisteredSingleton.java
                 |           |-- RegisteredSingleton2.java
+                |-- structural
+                |   |-- adapter
+                |       |-- AdapterDemo.java
+                |       |-- MusicAdapter.java
+                |       |-- MusicPlayerImpl.java
+                |       |-- impl
+                |       |   |-- VideoPlayImpl.java
+                |       |-- interfacee
+                |           |-- MusicPlayer.java
+                |           |-- VideoPlayer.java
                 |-- util
                     |-- JSON.java
                     |-- Logs.java
