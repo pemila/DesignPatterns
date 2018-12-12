@@ -52,14 +52,25 @@
                 |           |-- RegisteredSingleton2.java
                 |-- structural
                 |   |-- adapter
-                |       |-- AdapterDemo.java
-                |       |-- MusicAdapter.java
-                |       |-- MusicPlayerImpl.java
-                |       |-- impl
-                |       |   |-- VideoPlayImpl.java
-                |       |-- interfacee
-                |           |-- MusicPlayer.java
-                |           |-- VideoPlayer.java
+                |   |   |-- AdapterDemo.java
+                |   |   |-- MusicAdapter.java
+                |   |   |-- MusicPlayerImpl.java
+                |   |   |-- impl
+                |   |   |   |-- VideoPlayImpl.java
+                |   |   |-- interfacee
+                |   |       |-- MusicPlayer.java
+                |   |       |-- VideoPlayer.java
+                |   |-- bridge
+                |       |-- BridgeDemo.java
+                |       |-- Brand
+                |       |   |-- Brand.java
+                |       |   |-- DellBrand.java
+                |       |   |-- HaseeBrand.java
+                |       |   |-- HPBrand.java
+                |       |-- product
+                |           |-- NotebookProd.java
+                |           |-- Product.java
+                |           |-- TabletProd.java
                 |-- util
                     |-- JSON.java
                     |-- Logs.java
