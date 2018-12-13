@@ -61,16 +61,23 @@
                 |   |       |-- MusicPlayer.java
                 |   |       |-- VideoPlayer.java
                 |   |-- bridge
-                |       |-- BridgeDemo.java
-                |       |-- Brand
-                |       |   |-- Brand.java
-                |       |   |-- DellBrand.java
-                |       |   |-- HaseeBrand.java
-                |       |   |-- HPBrand.java
-                |       |-- product
-                |           |-- NotebookProd.java
-                |           |-- Product.java
-                |           |-- TabletProd.java
+                |   |   |-- BridgeDemo.java
+                |   |   |-- Brand
+                |   |   |   |-- Brand.java
+                |   |   |   |-- DellBrand.java
+                |   |   |   |-- HaseeBrand.java
+                |   |   |   |-- HPBrand.java
+                |   |   |-- product
+                |   |       |-- NotebookProd.java
+                |   |       |-- Product.java
+                |   |       |-- TabletProd.java
+                |   |-- Filter
+                |       |-- Criteria.java
+                |       |-- CriteriaFemale.java
+                |       |-- CriteriaMale.java
+                |       |-- CriteriaSingle.java
+                |       |-- FilterDemo.java
+                |       |-- Person.java
                 |-- util
                     |-- JSON.java
                     |-- Logs.java
