@@ -71,6 +71,9 @@
                 |   |       |-- NotebookProd.java
                 |   |       |-- Product.java
                 |   |       |-- TabletProd.java
+                |   |-- composite
+                |   |   |-- CompositeDemo.java
+                |   |   |-- Grade.java
                 |   |-- Filter
                 |       |-- Criteria.java
                 |       |-- CriteriaFemale.java
