@@ -1,6 +1,7 @@
 package com.pemila.structural.Filter;
 
 import com.pemila.util.JSON;
+import lombok.Data;
 
 /**
  * 1.创建需要过滤的对象
@@ -8,6 +9,7 @@ import com.pemila.util.JSON;
  * @date： 2018/12/13 14:24
  * @Description：
  */
+@Data
 public class Person {
     private String name;
     private String gender;
@@ -24,27 +26,4 @@ public class Person {
         return JSON.toJson(this);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getMaritalStatus() {
-        return maritalStatus;
-    }
-
-    public void setMaritalStatus(String maritalStatus) {
-        this.maritalStatus = maritalStatus;
-    }
 }

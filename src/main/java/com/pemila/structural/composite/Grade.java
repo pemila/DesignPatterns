@@ -1,6 +1,7 @@
 package com.pemila.structural.composite;
 
 import com.pemila.util.JSON;
+import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
  * @date： 2018/12/14 17:23
  * @Description：
  */
+@Data
 public class Grade {
     private String name;
     private String num;
@@ -33,29 +35,5 @@ public class Grade {
     @Override
     public String toString() {
         return JSON.toJson(this);
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getNum() {
-        return num;
-    }
-
-    public void setNum(String num) {
-        this.num = num;
-    }
-
-    public List<Grade> getSubGrade() {
-        return subGrade;
-    }
-
-    public void setSubGrade(List<Grade> subGrade) {
-        this.subGrade = subGrade;
     }
 }

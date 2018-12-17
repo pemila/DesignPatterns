@@ -1,11 +1,14 @@
 package com.pemila.creational.prototype;
 
+import lombok.Data;
+
 /**
  * 1.创建原型：创建一个实现Cloneable接口的抽象类
  * @author： 月在未央
  * @date： 2018/12/12 11:00
  * @Description：
  */
+@Data
 public abstract class Mobile implements Cloneable{
 
     private String id;
@@ -22,23 +25,5 @@ public abstract class Mobile implements Cloneable{
             e.printStackTrace();
         }
         return clone;
-    }
-
-
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getMobileType() {
-        return mobileType;
-    }
-
-    public void setMobileType(String mobileType) {
-        this.mobileType = mobileType;
     }
 }
