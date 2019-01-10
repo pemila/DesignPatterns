@@ -15,6 +15,7 @@
         <slf4j.version>1.7.25</slf4j.version>
         <jackson.version>2.9.8</jackson.version>
         <lombok.version>1.18.4</lombok.version>
+        <cglib.version>3.2.10</cglib.version>
     </properties>
 
     <dependencies>
@@ -44,6 +45,14 @@
             <version>${lombok.version}</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- cglib代理依赖 -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
