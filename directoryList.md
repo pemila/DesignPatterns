@@ -2,6 +2,30 @@
         |-- com
             |-- pemila
                 |-- Main.java
+                |-- behavioral
+                |   |-- ChainOfResponsibility
+                |       |-- base
+                |       |   |-- AbstractLogger.java
+                |       |   |-- ChainDemo.java
+                |       |   |-- DebugLogger.java
+                |       |   |-- ErrorLogger.java
+                |       |   |-- InfoLogger.java
+                |       |-- servletFilter
+                |           |-- RequestClient.java
+                |           |-- customFilter
+                |           |   |-- OneFilter.java
+                |           |   |-- TwoFilter.java
+                |           |-- filter
+                |           |   |-- Filter.java
+                |           |   |-- FilterChain.java
+                |           |   |-- FilterConfig.java
+                |           |-- http
+                |           |   |-- Request.java
+                |           |   |-- Response.java
+                |           |-- Server
+                |               |-- ApplicationFilterChain.java
+                |               |-- Servlet.java
+                |               |-- WebContainerServer.java
                 |-- creational
                 |   |-- abstractfactory
                 |   |   |-- AbstractFactoryDemo.java
@@ -74,13 +98,46 @@
                 |   |-- composite
                 |   |   |-- CompositeDemo.java
                 |   |   |-- Grade.java
+                |   |-- Decorator
+                |   |   |-- Circle.java
+                |   |   |-- DecoratorDemo.java
+                |   |   |-- RedShapeDecorator.java
+                |   |   |-- Shape.java
+                |   |   |-- ShapeDecorator.java
+                |   |-- Facade
+                |   |   |-- Computer.java
+                |   |   |-- FacadeClient.java
+                |   |   |-- subsysterm
+                |   |       |-- CPU.java
+                |   |       |-- Disk.java
+                |   |       |-- Memory.java
                 |   |-- Filter
-                |       |-- Criteria.java
-                |       |-- CriteriaFemale.java
-                |       |-- CriteriaMale.java
-                |       |-- CriteriaSingle.java
-                |       |-- FilterDemo.java
-                |       |-- Person.java
+                |   |   |-- Criteria.java
+                |   |   |-- CriteriaFemale.java
+                |   |   |-- CriteriaMale.java
+                |   |   |-- CriteriaSingle.java
+                |   |   |-- FilterDemo.java
+                |   |   |-- Person.java
+                |   |-- Flyweight
+                |   |   |-- FlyweightClient.java
+                |   |   |-- Goods.java
+                |   |   |-- GoodsFactory.java
+                |   |   |-- IGoods.java
+                |   |-- Proxy
+                |       |-- cglibproxy
+                |       |   |-- CglibProxy.java
+                |       |   |-- CglibProxyDemo.java
+                |       |   |-- Engineer.java
+                |       |-- dynamicproxy
+                |       |   |-- DynamicProxyDemo.java
+                |       |   |-- IUserDao.java
+                |       |   |-- ProxyFactory.java
+                |       |   |-- UserDao.java
+                |       |-- staticproxy
+                |           |-- IUserDao.java
+                |           |-- StaticProxyDemo.java
+                |           |-- UserDao.java
+                |           |-- UserDaoProxy.java
                 |-- util
                     |-- JSON.java
                     |-- Logs.java
