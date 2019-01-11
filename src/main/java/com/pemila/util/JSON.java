@@ -42,6 +42,17 @@ public class JSON {
 			throw new RuntimeException(e);
 		}
 	}
+
+	/**
+	 * 判断字符传是否为空，str==null及str只包含空格时均返回true
+	 * @param str
+	 * @return
+	 */
+	public static Boolean isBlank(String str){
+		if(str==null)
+			return true;
+		return str.replace(" ","").isEmpty();
+	}
 }
 
 
