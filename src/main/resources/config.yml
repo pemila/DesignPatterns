@@ -1,0 +1,9 @@
+#命令模式
+#客户端命令对应的具体命令实现
+Command:
+  a: com.pemila.behavioral.Command.CommandA
+  b: com.pemila.behavioral.Command.CommandB
+  aba:     #组合命令
+    - com.pemila.behavioral.Command.CommandA
+    - com.pemila.behavioral.Command.CommandB
+    - com.pemila.behavioral.Command.CommandA
