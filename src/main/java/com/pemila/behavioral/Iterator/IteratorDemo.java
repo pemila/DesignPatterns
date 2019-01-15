@@ -18,6 +18,5 @@ public class IteratorDemo {
         while (i.hasNext()){
             Logs.info(i.next());
         }
-
     }
 }
